@@ -9,7 +9,7 @@ We'll work with Sentinel-1 backscatter mosasics stored as [Cloud-Optimized Geoti
 ## Run these notebooks on the Cloud:
 Clicking the following button will transport you into a temporary server running on [mybinder.org](https://mybinder.org/)
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/scottyhq/greenland_ice_mapping_project/master?urlpath=lab)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/scottyhq/greenland-ice-mapping-project/main?urlpath=lab)
 
 
 ## Run these notebooks on your own computer:
