@@ -9,7 +9,7 @@ We'll work with Sentinel-1 backscatter mosasics stored as [Cloud-Optimized Geoti
 ## Run these notebooks on the Cloud:
 Clicking the following button will transport you into a temporary server running on [mybinder.org](https://mybinder.org/)
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/scottyhq/greenland-ice-mapping-project/master?urlpath=lab)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/scottyhq/greenland_ice_mapping_project/master?urlpath=lab)
 
 
 ## Run these notebooks on your own computer:
@@ -17,7 +17,7 @@ This requires that you have [conda](https://docs.conda.io/en/latest/miniconda.ht
 ```
 git clone https://github.com/scottyhq/greenland-ice-mapping-project.git
 cd greenland-ice-mapping-project
-conda env create -f .binder/environment.yml
+conda env create -f binder/environment.yml
 conda activate greenland-ice-mapping
 jupyter lab
 ```
