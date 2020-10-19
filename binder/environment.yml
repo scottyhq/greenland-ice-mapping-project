@@ -1,0 +1,18 @@
+name: greenland-ice-mapping
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - fsspec
+  - geopandas
+  - geoviews
+  - hvplot
+  - intake
+  - intake-xarray
+  - intake-stac
+  - jupyterlab
+  - rasterio
+  - rioxarray
+  - sat-search
+  - sat-stac
+  - xarray
