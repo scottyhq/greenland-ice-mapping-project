@@ -1,0 +1,114 @@
+<VRTDataset rasterXSize="29520" rasterYSize="53220">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["WGS 84 / NSIDC Sea Ice Polar Stereographic North",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Polar_Stereographic"],PARAMETER["latitude_of_origin",70],PARAMETER["central_meridian",-45],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",SOUTH],AXIS["Northing",SOUTH],AUTHORITY["EPSG","3413"]]</SRS>
+  <GeoTransform> -6.2600000000000000e+05,  5.0000000000000000e+01,  0.0000000000000000e+00, -6.9500000000000000e+05,  0.0000000000000000e+00, -5.0000000000000000e+01</GeoTransform>
+  <VRTRasterBand dataType="Float32" band="1">
+    <NoDataValue>-30</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://my-cog-server.s3-us-west-2.amazonaws.com/GL_S1bks_mosaic_30Dec19_04Jan20_gamma0_50m_v03.0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="29520" RasterYSize="53220" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="29520" ySize="53220" />
+      <DstRect xOff="0" yOff="0" xSize="29520" ySize="53220" />
+      <NODATA>-30</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float32" band="2">
+    <NoDataValue>-30</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://my-cog-server.s3-us-west-2.amazonaws.com/GL_S1bks_mosaic_05Jan20_10Jan20_gamma0_50m_v03.0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="29520" RasterYSize="53220" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="29520" ySize="53220" />
+      <DstRect xOff="0" yOff="0" xSize="29520" ySize="53220" />
+      <NODATA>-30</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float32" band="3">
+    <NoDataValue>-30</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://my-cog-server.s3-us-west-2.amazonaws.com/GL_S1bks_mosaic_11Jan20_16Jan20_gamma0_50m_v03.0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="29520" RasterYSize="53220" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="29520" ySize="53220" />
+      <DstRect xOff="0" yOff="0" xSize="29520" ySize="53220" />
+      <NODATA>-30</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float32" band="4">
+    <NoDataValue>-30</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://my-cog-server.s3-us-west-2.amazonaws.com/GL_S1bks_mosaic_17Jan20_22Jan20_gamma0_50m_v03.0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="29520" RasterYSize="53220" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="29520" ySize="53220" />
+      <DstRect xOff="0" yOff="0" xSize="29520" ySize="53220" />
+      <NODATA>-30</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float32" band="5">
+    <NoDataValue>-30</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://my-cog-server.s3-us-west-2.amazonaws.com/GL_S1bks_mosaic_23Jan20_28Jan20_gamma0_50m_v03.0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="29520" RasterYSize="53220" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="29520" ySize="53220" />
+      <DstRect xOff="0" yOff="0" xSize="29520" ySize="53220" />
+      <NODATA>-30</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float32" band="6">
+    <NoDataValue>-30</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://my-cog-server.s3-us-west-2.amazonaws.com/GL_S1bks_mosaic_29Jan20_03Feb20_gamma0_50m_v03.0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="29520" RasterYSize="53220" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="29520" ySize="53220" />
+      <DstRect xOff="0" yOff="0" xSize="29520" ySize="53220" />
+      <NODATA>-30</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float32" band="7">
+    <NoDataValue>-30</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://my-cog-server.s3-us-west-2.amazonaws.com/GL_S1bks_mosaic_04Feb20_09Feb20_gamma0_50m_v03.0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="29520" RasterYSize="53220" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="29520" ySize="53220" />
+      <DstRect xOff="0" yOff="0" xSize="29520" ySize="53220" />
+      <NODATA>-30</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float32" band="8">
+    <NoDataValue>-30</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://my-cog-server.s3-us-west-2.amazonaws.com/GL_S1bks_mosaic_10Feb20_15Feb20_gamma0_50m_v03.0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="29520" RasterYSize="53220" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="29520" ySize="53220" />
+      <DstRect xOff="0" yOff="0" xSize="29520" ySize="53220" />
+      <NODATA>-30</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float32" band="9">
+    <NoDataValue>-30</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://my-cog-server.s3-us-west-2.amazonaws.com/GL_S1bks_mosaic_16Feb20_21Feb20_gamma0_50m_v03.0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="29520" RasterYSize="53220" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="29520" ySize="53220" />
+      <DstRect xOff="0" yOff="0" xSize="29520" ySize="53220" />
+      <NODATA>-30</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float32" band="10">
+    <NoDataValue>-30</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://my-cog-server.s3-us-west-2.amazonaws.com/GL_S1bks_mosaic_22Feb20_27Feb20_gamma0_50m_v03.0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="29520" RasterYSize="53220" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="29520" ySize="53220" />
+      <DstRect xOff="0" yOff="0" xSize="29520" ySize="53220" />
+      <NODATA>-30</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
