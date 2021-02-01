@@ -4,13 +4,16 @@ channels:
 dependencies:
   - python=3.8
   - fsspec
+  - datashader
   - geopandas
   - geoviews
   - hvplot
   - intake
   - intake-xarray
   - intake-stac
-  - jupyterlab
+  - jupyterlab>=3
+  - jupyter-panel-proxy
+  - panel
   - rasterio
   - rioxarray
   - sat-search

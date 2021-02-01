@@ -21,3 +21,8 @@ conda env create -f binder/environment.yml
 conda activate greenland-ice-mapping
 jupyter lab
 ```
+
+### prototype panel app
+Clicking the following button will transport you into a temporary server a [Panel App](https://panel.holoviz.org):
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/scottyhq/greenland-ice-mapping-project/main?urlpath=%2Fpanel%2F3-subsetter-app)
