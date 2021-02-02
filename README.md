@@ -26,3 +26,9 @@ jupyter lab
 Clicking the following button will transport you into a temporary server a [Panel App](https://panel.holoviz.org):
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/scottyhq/greenland-ice-mapping-project/main?urlpath=%2Fpanel%2F3-subsetter-app)
+
+Or you can run the app locally with the following commands (open URL reported by panel in your browser)
+```
+conda activate greenland-ice-mapping
+panel serve 3-subsetter-app.ipynb 
+```
