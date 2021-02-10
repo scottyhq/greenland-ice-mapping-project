@@ -12,6 +12,7 @@ dependencies:
   - intake-xarray
   - intake-stac
   - jupyterlab>=3
+  - jupyter-server-proxy=1.5
   - jupyter-panel-proxy
   - panel
   - rasterio
