@@ -32,3 +32,12 @@ Or you can run the app locally with the following commands (open URL reported by
 conda activate greenland-ice-mapping
 panel serve 3-subsetter-app.ipynb 
 ```
+
+
+#### troubleshooting
+
+1. If you are trying to work with urls pointing to data at NSIDC or a nsidic0723-subset.vrt downloaded from the app linked above with GDAL, you need to specific a few environment variables:
+```
+GDAL_HTTP_COOKIEFILE=.urs_cookies GDAL_HTTP_COOKIEJAR=.urs_cookies gdalinfo nsidc0723-subset.vrt 
+```
+Because QGIS uses GDAL behind the scenes, you also need to set these environment variables within QGIS preferences, see [QGIS instructions](QGIS.md).

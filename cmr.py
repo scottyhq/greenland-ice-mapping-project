@@ -55,7 +55,7 @@ def cmr_filter_urls(search_results):
 
 def query_cmr(query_url):
     ''' return JSON / python dictionary'''
-    print(query_url)
+    #print(query_url)
     response = requests.get(query_url)
     search_results = response.json()
     return search_results
